@@ -1,0 +1,54 @@
+/*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Bebas Neue', cursive;*/
+
+/*Calibrage de l'en tête de la page du site*/
+.tete{
+    background-color: beige;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 95px; 
+}
+
+/*Calibrage de la box raccourcies*/
+.boxRacc{
+    /*background-color: aqua;*//*repérage visuel de la box*/
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 2%;
+    gap: 3%;
+}
+
+/*configuration du texte sur la box raccourcies*/
+.boxRacc a{
+    color: red;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.mbox:hover a {
+    color: white;
+}
+
+
+/*Séléction et redirection sur le site*/
+.mbox{
+    width: 125px;
+    text-align: center;
+}
+.mbox:hover{
+    font-weight: bolder;
+    color: white;
+    background-color: red;
+}

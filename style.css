@@ -1,0 +1,36 @@
+/*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Bebas Neue', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+}
+p{
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+#presentation{
+    margin-top: 2%;
+}
+
+.L1{
+    background-image: "images/tesla-model-s.jpg";
+}
+
+img{
+    margin-top: 2%;
+    width: 100%;
+}
+
+a{
+    color: beige;
+    text-decoration: underline;
+}
